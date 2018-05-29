@@ -7,11 +7,11 @@ replace yaml file under configs/getting_started/tutorial_4gpu_e2e_faster_rcnn+R-
 ---
 create the data folder that have below where annotations will be filed with json from deep_fashion_to_coco.py
 
-ls /home/feiliu/Desktop/cs231N_Spring_2018/final_project/fashion
-_recommendation/deep_fashion_data/
+ls /home/feiliu/Desktop/cs231N_Spring_2018/final_project/fashion_recommendation/deep_fashion_data/
 Anno  annotations  Eval  img  train_modified.csv  vali_modified.csv
 
 ---
+
 
 
 
