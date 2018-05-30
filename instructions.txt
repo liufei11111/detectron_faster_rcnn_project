@@ -12,6 +12,10 @@ Anno  annotations  Eval  img  train_modified.csv  vali_modified.csv
 
 ---
 
+use deep_fashin_to_coco.py and change the path to use above folder and change the output to be under Detectron local folder.
+
+---
+download the weights I shared on google drive and use corresponding yaml file to visualize the images inside demo_fashion folder. Note that it is using the label in COCO competition and it needs to be remapped in the infer_simle.py with 0-5 remapped to our categories.
 
 
-
+python2 tools/infer_simple.py --cfg configs/getting_started/tutorial_1gpu_e2e_faster_rcnn_X-101-64-4d-FPN.yaml --output-dir /tmp/detectron-visualizations-X-101-64-4d-FPN --image-ext jpg --wts /tmp/detectron-output-x-101/train/coco_2014_train/generalized_rcnn/model_final.pkl demo_fashion/
